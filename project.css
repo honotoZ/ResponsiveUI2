@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#h2{
+    font-size: 30px;
+    margin-top: 23px;
+    margin-left: 490px;
+}
+#formid{
+    margin-left: 420px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-top: 30px;
+    padding-left: 70px;
+    background-color: rgb(239, 219, 181);
+    width: 400px;
+    /* height: 90px; */
+    border-radius: 5px;
+}
+#labelfname{
+    font-size: 16px;
+    font-weight: bold;
+}
+#labellname{
+    font-size: 16px;
+    font-weight: bold;
+}
+#fname{
+    color: black;
+    font-size: 15px;
+    width: 270px;
+    height: 22px;
+}
+#lname{
+    color: black;
+    font-size: 15px;
+    width: 270px;
+    height: 22px;
+}
+#submit{
+    width: 67px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 550;
+    margin-left: 90px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+#table{
+    margin: 10px;
+    margin-left: 200px;
+    margin-top: 27px;
+    padding: 0%;
+    width: 900px;
+    /* border: 1px solid black; */
+}
+#thead{
+    height: 50px;
+    text-align: center;
+    border-bottom: solid;
+    background-color: rgb(46, 46, 44);
+    color: aliceblue;
+}
+#tbody{
+    width: 50px;
+    height: 20px;
+}
+
+
