@@ -5,10 +5,10 @@
 #h2{
     font-size: 30px;
     margin-top: 23px;
-    margin-left: 490px;
+    margin-left: 43%;
 }
 #formid{
-    margin-left: 420px;
+    margin-left: 37%;
     margin-top: 15px;
     margin-bottom: 5px;
     padding-top: 30px;
@@ -42,14 +42,15 @@
     width: 67px;
     height: 25px;
     font-size: 15px;
-    font-weight: 550;
+    font-weight: 600;
     margin-left: 90px;
     margin-bottom: 30px;
-    border-radius: 3px;
+    padding-bottom:10px
+    
 }
 #table{
     margin: 10px;
-    margin-left: 200px;
+    margin-left: 20%;
     margin-top: 27px;
     padding: 0%;
     width: 900px;
@@ -67,4 +68,18 @@
     height: 20px;
 }
 
-
+@media (max-width: 670px) and (min-width: 450px) {
+    div {
+        width: 200px;
+    }
+    #formid{
+        width: 370px;
+    }
+    #h2{
+        width: 270px;
+        margin-left: 140px;
+    }
+    #table{
+        width: 430px;
+    }
+}
