@@ -66,22 +66,38 @@
     height: 20px;
 }
 
-@media (max-width: 810px) {
-
-    div{
-        display: inline-block;
-        justify-content: center;
-        width: 50%;
+@media (max-width: 1000px) {
+    #h2{
+        position: relative;
+        right: 10%;
+        font-size: 25px;
     }
-    h2{
-        width: 100%;
-        text-align: center;
+    #formid{
+        width: 70%;
+        position: relative;
+        right: 20%;
+    }
+    #labelfname,#labellname{
+        width: 70%;
+        font-size: 15px;
+        position: relative;
+        right: 5%;
+    }
+    #fname,#lname{
+        width: 90%;
+        font-size: 15px;
+        position: relative;
+        right: 5%;
+    }
+    #submit{
+        font-size: 15px;
+        position: relative;
+        right: 10%;
     }
     #table{
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
+        width: 90%;
+        position: relative;
+        right: 15%;
     }
 
 }
