@@ -1,20 +1,21 @@
 *{
     margin: 0%;
-    padding: 0%;
 }
 #h2{
     font-size: 30px;
-    margin-top: 23px;
-    margin-left: 43%;
+    margin-top: 3%;
+    margin-left: 42%;
+    
 }
 #formid{
-    margin-left: 37%;
-    margin-top: 15px;
-    margin-bottom: 5px;
+    /* align-items: center; */
+    margin-left: 33%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     padding-top: 30px;
     padding-left: 70px;
     background-color: rgb(239, 219, 181);
-    width: 400px;
+    width: 500px;
     border-radius: 5px;
 }
 #labelfname{
@@ -44,14 +45,12 @@
     font-weight: 600;
     margin-left: 90px;
     margin-bottom: 30px;
-    padding-bottom:10px
-    
+    padding-bottom: 20px;
 }
 #table{
     margin: 10px;
     margin-left: 20%;
     margin-top: 27px;
-    padding: 0%;
     width: 900px;
 }
 #thead{
@@ -61,21 +60,19 @@
     background-color: rgb(46, 46, 44);
     color: aliceblue;
 }
-#tbody{
-    width: 50px;
-    height: 20px;
-}
 
-@media (max-width: 1000px) {
+@media only screen and (max-width: 1000px){
     #h2{
         position: relative;
-        right: 10%;
+        right: 19%;
         font-size: 25px;
+        text-align: center;
     }
     #formid{
         width: 70%;
         position: relative;
-        right: 20%;
+        right: 17%;
+        
     }
     #labelfname,#labellname{
         width: 70%;
@@ -92,7 +89,7 @@
     #submit{
         font-size: 15px;
         position: relative;
-        right: 10%;
+        right: 5%;
     }
     #table{
         width: 90%;
